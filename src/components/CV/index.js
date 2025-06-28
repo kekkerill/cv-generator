@@ -7,7 +7,6 @@ export default function CV({ fontFamily }) {
   const sectionOrder = useSectionStore((state) => state.sectionOrder);
   const fields = useSectionStore((state) => state.fields);
 
-  // Какие поля должны быть жирными
   const boldFields = {
     education: ["institution"],
     personalInfo: ["Name"],

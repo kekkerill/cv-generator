@@ -21,7 +21,6 @@ import Popup from "../Popup";
 import SortableSection from "../Section/SrotableSection";
 
 export default function Editor() {
-  // Zustand state
   const sectionEnable = useSectionStore((state) => state.sectionEnable);
   const enableSection = useSectionStore((state) => state.enableSection);
   const sectionOrder = useSectionStore((state) => state.sectionOrder);
@@ -30,7 +29,6 @@ export default function Editor() {
   const fillWithMockData = useSectionStore((state) => state.fillWithMockData);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-  // DnD sensors
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: { distance: 5 }
