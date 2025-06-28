@@ -1,5 +1,5 @@
 {
-  "homepage": "kekkerill.github.io/cv-generator",
+  "homepage": "https://kekkerill.github.io/cv-generator",
   "name": "cv-generator",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,8 @@
     "zustand": "^5.0.6"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
