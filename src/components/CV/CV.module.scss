@@ -1,0 +1,52 @@
+.cv_wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: #1a1a1a;
+  border-radius: 6px;
+  overflow: scroll;
+  max-width: 700px;
+  margin: 24px auto;
+  padding: 16px 16px 20px 16px;
+  color: #222;
+}
+
+.cv_section {
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.cv_section h4 {
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  border-left: 3px solid #4f8cff;
+  padding-left: 7px;
+  background: #f2f7ff;
+}
+
+.cv_fields {
+  margin-left: 4px;
+}
+
+.cv_field p {
+  margin: 0;
+  font-size: 0.8em;
+  color: #222;
+  line-height: 1.2;
+  background: #fff;
+  border-radius: 3px;
+  padding: 2px 5px;
+  min-height: 16px;
+  box-shadow: 0 1px 2px rgba(79, 140, 255, 0.02);
+  word-break: break-word;
+}
